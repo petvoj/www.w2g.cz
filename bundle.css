@@ -36,24 +36,37 @@ h1 {
 
 h2 {
     font-size: 3.1em;
-    font-weight: 100;
+    font-weight: 400;
     margin-top: -0.3em;
     margin-bottom: 0em;
+    padding: 0px;
 }
 
 p {
-    font-size: 1.7em;
+    font-size: 1.5em;
     color: white;
 }
 
 a {
     color: white;
-    font-weight: 400;
+    font-weight: 100;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+.this-is-the {
+    font-family: 'Mandalore', sans-serif;
+    font-size: 3.1em;
+}
+
+.way {
+    font-family: 'Mandalore', sans-serif;
+    font-size: 8em;
+    padding: 0px;
+    margin-top: -0.1em;
 }
 
 @media only screen and (max-width: 540px) {
@@ -68,4 +81,13 @@ a:hover {
     p {
         font-size: 4.6vw;
     }
+
+    .this-is-the {
+        font-size: 9vw;
+    }
+    
+    .way {
+        font-size: 23vw;
+    }
+
 }
