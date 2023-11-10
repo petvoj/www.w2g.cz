@@ -1,0 +1,71 @@
+html {
+    height: 100%;
+   
+}
+
+body {
+    color: white;
+    height: 100%;
+    font-size: 100%;
+    font-weight: 200;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right bottom, #390040, #330a49, #2b1351, #201b58, #0b215f);
+    font-family: 'Onest', sans-serif;
+}
+
+#container {
+    display: flex;           /* establish flex container */
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */
+    height: 100%;
+}
+
+.box {
+    text-align: center;     /* will center text in <p>, which is not a flex item */
+}
+
+h1 {
+    font-size: 9em;
+    font-weight: 100;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+h2 {
+    font-size: 3.1em;
+    font-weight: 100;
+    margin-top: -0.3em;
+    margin-bottom: 0em;
+}
+
+p {
+    font-size: 1.7em;
+    color: white;
+}
+
+a {
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 540px) {
+    h1 {
+        font-size: 25vw;
+    }
+    
+    h2 {
+        font-size: 9vw;
+    }
+    
+    p {
+        font-size: 4.6vw;
+    }
+}
